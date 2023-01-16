@@ -1,0 +1,19 @@
+What will be the time complexity of the above function where n is a positive integer?
+
+
+while(n>0){
+n++;
+n-=2;
+}
+
+Choose the correct answer from below:
+A) Infinite loop
+B) O(n)
+C) O(nlogn)
+D) O(logn)
+E) None of the above
+
+Ans: B) O(n)
+
+Explaination : Overall, in each iteration, the value of n decreases by 1. So, there would be a total of n operations.
+Hence, the time complexity is O(n).

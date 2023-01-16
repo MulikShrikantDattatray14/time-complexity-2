@@ -1,0 +1,19 @@
+What is the time complexity of the following code snippet?
+
+
+int sum=0;
+for(int i=0;i<=N;i++){
+for(int j=i;j<=N && j>i ; j++){
+sum+=i;
+}
+}
+
+Choose the correct answer from below:
+A) O(N^2)
+B) O(N)
+C) O(NlogN)
+D) None of these
+
+Ans: B) O(N)
+Explaination : Since the inner loop condition is the j should be greater than i and as j is initialised with i , the inner loop will stop then and there.
+Hence O(N) time complexity

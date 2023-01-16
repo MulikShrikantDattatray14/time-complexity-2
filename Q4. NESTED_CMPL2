@@ -1,0 +1,17 @@
+What is the time complexity of the following code :
+
+Choose the correct answer from below:
+A) O(N)
+B) O(N*log(N))
+C) O(N * Sqrt(N))
+D) O(N*N)
+
+Ans:D) O(N*N)
+
+Explaination: Total number of runs = N + (N - 1) + (N - 2) + ... 1 + 0
+
+= N * (N + 1) / 2
+
+= 1/2 * N^2 + 1/2 * N
+
+O(N^2) times. 

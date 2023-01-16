@@ -1,0 +1,21 @@
+What is the Time Complexity of following snippet ?
+
+
+for(i=0;i<n ;i++){
+for(j=0;j<n;j++){
+break;
+}
+}
+
+
+Choose the correct answer from below:
+A) O(N*N)
+B) O(N*log(N))
+C) O(N)
+D) O(log(N))
+E) None of the above
+
+Ans:O(N).
+
+Explaination: Here for every i the inner loop will run for only interation. So the complexity is the number of times outer loop will run.
+That is N so complexity is O(N).

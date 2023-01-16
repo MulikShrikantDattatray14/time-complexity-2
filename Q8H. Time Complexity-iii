@@ -1,0 +1,18 @@
+What is the time complexity of the following code snippet?
+
+for( i=0;i<n ;i++){
+for(j=i-1;j>=0;j++){
+ans += i+j;
+}
+}
+
+
+Choose the correct answer from below:
+A) O(n)
+B) O(n^2)
+C) Code will run indefinitely
+D) O(1)
+E) None of the above
+
+Ans:C) Code will run indefinitely.
+Explaination : Since the end of the loop is set 0 and its start is i-1 and variable j is increased rather than decreasing , j will always be greater or equal to 0

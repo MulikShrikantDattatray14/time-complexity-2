@@ -1,0 +1,25 @@
+What will be the Time Complexity of the given code?
+
+int i=1;
+while(i< n ){
+int x=i;
+while(x--  > 0){
+//0(1) operations.
+}
+i++;
+}
+
+
+
+Choose the correct answer from below:
+A) O(nlogn)
+B) O(n)
+C) O(n sqrt(n))
+D) O(n^2)
+E) None of the above
+
+
+Ans: D) O(n^2)
+
+Explaination: The total number of operations taking place is the sum of first n natural numbers, which is equal to n * (n + 1) / 2.
+Therefore, the time complexity is O(n2).
